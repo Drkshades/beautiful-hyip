@@ -18,7 +18,7 @@ function checkform() {
 </script>
 {/literal}
 
-<div data-mkd-parallax-speed="1" class="vc_row wpb_row vc_row-fluid mkd-section vc_custom_1447839811894 mkd-content-aligment-left mkd-grid-section" style="padding-top: 20px; background-image: url(../images/custom/bitcoin-white.jpg);">
+<div data-mkd-parallax-speed="1" class="vc_row wpb_row vc_row-fluid mkd-section vc_custom_1447839811894 mkd-content-aligment-left mkd-grid-section" style="padding-top: 20px">
     <div class="clearfix mkd-section-inner">
         <div class="mkd-section-inner-margin clearfix">
             <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-offset-4 vc_col-md-4 vc_col-lg-offset-4 vc_col-md-4">
@@ -28,7 +28,7 @@ function checkform() {
                     </div>
                     <div class="vc_empty_space" style="height: 20px"><span class="vc_empty_space_inner"></span></div>
                     {if $frm.say eq 'invalid_login'}
-                        <h3>Login error:</h3>
+                        <h3>Login error:</h3><br>
                         <p>Your login or password or turing image code is wrong. Please check this information.</p>
                     {/if}
                     <div class="screen-reader-response"></div>
